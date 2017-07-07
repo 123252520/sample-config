@@ -34,7 +34,7 @@ eureka:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://192.168.59.103:8761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
       
 # The OAuth2 server definition that would be used to send the authorization requests to
 authserver:
